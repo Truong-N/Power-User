@@ -1,0 +1,137 @@
+Week 1
+Basic Commands
+1.Using a Linux machine, you have the following directory tree:
+/
+|-- home
+|   |-- cindy
+|       |-- Pictures
+|           |--Alaska
+|           |--Canada
+|       |-- Movies
+|-- var
+cd ~/Pictures/Alaska
+cd /home/cindy/Pictures/Alaska
+2. In Bash, which of the following commands can you use to view a long list of all files in the /home directory? Check all that apply.
+ls -la /home
+ls -l -a /home
+3. In Bash, which of the following commands can you use to remove a directory named: "Miscellaneous Directory?"
+rm -r Miscellaneous\ Directory
+File and Text Manipulation
+1. In Bash, which of the following commands can you use to view the contents of a document. Check all that apply. 
+cat
+less
+2. In a Linux machine, you have the following files: 
+apple.txt
+banana.jpg 
+chocolate.txt
+orange.txt
+What command can you use to search for the word "fruit" in the text files in the above directory? Check all that apply.
+grep fruit apple.txt chocolate.txt orange.txt
+grep fruit *.txt
+3. In a Linux machine, you have a file named "types_of_fish.txt" and you want to append the word "trout" to the file contents. Which of the following commands can you use? 
+echo trout >> types_of_fish.txt
+4. In a Linux machine, you want to list through a directory called /home/ben/Documents and search for the word "important" in the filenames in that directory. Which of the following commands can you use? 
+ls /home/ben/Documents | grep important
+week 2
+Permissions
+1. What are the basic linux file permissions? Check all that apply.
+Read
+Write
+Execute
+2. You're given the output of an ls -l of a file in Linux. 
+ls -l books_file
+dr-x-wxr--  1 phelan cool_group 0 Aug  20 11:10 books_file
+Answer the following question: What does the first character of output signify?
+books_file is a directory
+3. You're given the output of an ls -l of a file in Linux. 
+ls -l books_file
+dr-x-wxr--  1 phelan cool_group 0 Aug  20 11:10 books_file
+Answer the following question: Who does the last trio of bits (r--) in the file permission and attributes refer to?
+All other users
+4. You're given the output of an ls -l of a file in Linux. 
+ls -l books_file
+dr-x-wxr--  1 phelan cool_group 0 Aug  20 11:10 books_file
+Answer the following question: What permissions does the second trio of bits (-wx) give you? Check all that apply.
+Write
+Execute
+5. If I wanted to change permissions of a file called honey_bears, what command could I use to grant write access to the owner of the file without changing other permissions? The owner currently only has read access to the file. Check all that apply.
+chmod u+w honey_bears
+------Week 3
+---Software Distribution
+1. What's the difference between an EXE file and an MSI file? Check all that apply.
+An EXE file is an executable that may have an MSI file as one its resources.
+MSI files are used by the Windows Installer to control how your application is installed.
+2. When would you want to use an MSI file to guide the installation of a program, as opposed to an EXE?
+When you want the Windows Installer to perform bookkeeping and setup for your application, at the cost of following the rules the Installer requires.
+3. If you're performing an installation from the command line in Windows, what's the best method of checking out the options that the installation package provides? Check all that apply.
+Consult the documentation for the application to see what options they provide.
+4. What's the difference between apt and dpkg? Check all that apply.
+apt installs package dependencies.
+apt is used as a package manager.
+dpkg is used as a standalone Debian package command.
+5. Which of the following file extensions are considered archives in Windows? Check all that apply.
+.tar
+.zip
+.rar
+6. What's the PowerShell commandlet you can use to extract and compress archives right from the commandline? 
+Compress-Archive
+7. What's the purpose of a DLL in Windows?
+To share a package of useful code among programs
+8. Most shared libraries in Windows are managed by which of the following?
+Side-by-side assemblies, or SxS
+9. What's the correct commandlet to use in order to find a software package in the available package sources from the PowerShell command line?
+Find-Package
+---Package Managers
+1. Which of the following PowerShell commands will install the package "awesomesoftware" from the Chocolatey software source?
+Install-Package -Name awesomesoftware -Source chocolatey
+2. Before you install software, which of the following commands should you run to get an updated version of your software?
+apt update
+---What’s happening in the background?
+1. Which of the following tools allows you to create or edit MSI files?
+   Orca
+---Device Software Management
+1. Which of the following is the piece of information that Windows will use to search for the right driver for a new piece of hardware connected to a Windows computer?
+Ans: Hardware ID
+2. In Linux, in the /dev directory, devices that start with sd can be associated with what type of device? Check all that apply.
+Ans: Hard drives
+     USB drives
+     Memory sticks
+3. Which of the following correctly describes a "Security Patch?" 
+Ans: A piece of software that's meant to fix up a security hole.
+------Week 4
+---Filesystem Types
+1. Which of the following is a characteristic of the FAT32 filesystem? Check all that apply.
+Ans: It doesn't support files larger than 4GB.
+     It's read and write compatible with Windows, Mac, and Linux OSes.
+     Its filesystem size can't be larger than 32GB.
+2. What's the difference between a GPT and MBR partition table? Check all that apply.
+Ans: MBR only allows you to have volume sizes of 2TBs or less.
+     GPT doesn't have a limit to the amount of partitions you can make.
+     GPT allows you to have volume sizes of 2TBs or greater.
+3. Before you can store files on a hard drive, which of the following has to be done? Check all that apply.
+Ans: Format a filesystem
+     Partition the disk
+     Mount the filesystem
+4. You want to format a partition with NTFS, and know that the data you'll be storing will consist mostly of many small files. In order to use as little space as possible, should you choose a larger or smaller Allocation Unit Size during the formatting process?
+Ans: Smaller allocation unit size
+5. In Linux, what could a device named /dev/sdb2 refer to?
+Ans: The second partition of the second hard drive detected on the system
+6. True or false: If you want to save space on a Windows computer, deleting the pagefile.sys file is a good idea. False
+7. Which of the following commands in Windows will create a symbolic link called "cauliflower" to a file named "broccoli.txt?"
+Ans: mklink cauliflower broccoli.txt
+8. True or false: In modern versions of Windows, it's necessary to periodically run a Disk Defragmentation process manually to keep your disk healthy. False
+9. In Linux, what's the difference between the commands df and du? Check all that apply.
+Ans: df is used to find the amount of free space on an entire machine.
+     du is used to find the amount of disk usage on a specific directory. 
+10. In Linux, what's the difference between a hardlink and a softlink? Check all that apply.
+Ans: A softlink points to a filename.
+     A hardlink points to an inode.
+     You can view the hardlink count of a file using ls -l.
+11. Although NTFS is largely a self-healing filesystem, which of the following tools can you run to try to locate and repair serious disk corruption of the C: drive?
+Ans: chkdsk /r c:
+12. If you want to automatically mount a filesystem on computer startup, what file do you have to modify? 
+Ans: /etc/fstab
+------Week 5
+---Life of a Process
+1. True or false: Windows processes can operate independently of their parents.
+Ans: True
