@@ -1,0 +1,408 @@
+state a TCP socket is ready and listening for incoming connections
+listen
+0
+Application layer data lives in the what section of the transport layer protocol
+data payload
+0
+A Transmission Control Protocol (TCP) connection is established and two devices ensure that they're speaking the same protocol. What has occured?
+three-way handshake
+0
+A Transmission Control Protocol (TCP) connection is in working order and both sides can send each other data. What is the TCP socket state?
+ESTABLISHED
+0
+Connection-oriented protocols protect against dropped data by forming connections and using what type of constant stream?
+acknowledgements
+0
+How many bits are reserved for the Transmission Control Protocol (TCP) flags?
+6
+0
+In what order will the Transmission Control Protocol (TCP) generally send all segments?
+sequential
+0
+In which scenario should you use the User Datagram Protocol (UDP)?
+streaming a video
+0
+The checksum doesn't compute for a packet sent at the Internet Protocol (IP) level. What will happen to the data?
+discarded
+0
+The transport layer handles multiplexing and demultiplexing through what type of device
+ports
+0
+The sequence of SYN  SYN/ACK  and ACK packets is known as the
+three-way handshake
+0
+Which field in a Transmission Control Protocol (TCP) header provides the next expected segment?
+Acknowledgement number
+0
+Which field in a Transmission Control Protocol (TCP) header is not typically used in modern networking?
+urgent pointer
+0
+Which Transmission Control Protocol (TCP) flag is used to make sure the receiving end knows how to examine the sequence number field?
+SYN
+0
+A RECORD
+ipv4
+0
+network computer need 4 configured
+IP address subnet mask primary gateway name server
+0
+DHCP discovery has 4 steps
+discover offer request ack
+0
+DHCP listen port
+67
+0
+DHCP send port
+68
+0
+PTR do
+ip to domain name
+0
+A record do
+domain name to ip
+0
+A baud rate is measured
+bits/second
+0
+four most common broadband solutions
+T-carrier technologies/DSL/cable broadband/fiber connections
+0
+By the late 1950s phone line sent how many bits per second.
+100 b/s
+0
+USENET
+300 b/s
+0
+dial-up access
+14.4 Kb/s
+0
+Broadband Internet connections are always
+on
+0
+T1 baud rate for each phone
+64 Kb/s
+0
+T1
+24 phones
+0
+T3
+28 T1
+0
+The transport layer is responsible for
+multiplexing/demultiplexing/long running connections/error checking/data verification
+0
+Multiplexing
+one to many
+0
+Demultiplexing
+many to one
+0
+The transport layer handles multiplexing and demultiplexing through
+ports
+0
+A port is a __-bit number that's used to direct traffic to specific services running on a networked computer
+16
+0
+web traffic port
+80
+0
+FTP port
+21
+0
+TCP header
+source port/destination port fields/sequence/acknowledgement/data offset/six TCP control flags/TCP window/checksum/urgent pointer/options/padding
+0
+sequence number field is a __-bit number
+32
+0
+Ethernet frame size
+1518 bytes
+0
+data offset is a ___-bit number
+4
+0
+data offset
+how long the TCP header
+0
+control flags ___ bits
+6
+0
+TCP window ___ bit
+16
+0
+checksum is __ bit
+16
+0
+urgent pointer
+16
+0
+options
+16
+0
+padding
+16
+0
+The Urgent pointer field + one of the TCP control flags to point out
+important segments
+0
+The Urgent pointer ___ in modern networking.
+not find
+0
+6 flags
+URG/ACK/PSH/RST/SYN/FIN
+0
+the acknowledgment number field should be examined
+ACK
+0
+very small amount of information to respond to immediately
+PSH
+0
+missing or malform segment flag
+RST
+0
+to examine the sequence number field flag
+SYN
+0
+doesn't have any more data to send and the connection can be closed
+FIN=1
+0
+three way handshake
+SYN-SYN/ACK-ACK
+0
+four way handshake
+FIN-ACK-FIN-ACK
+0
+socket states or sends
+LISTEN/SYN_SENT/SYN_RECEIVED/SYN_ACK/ESTABLISHED/FIN/FIN_WAIT/ACK/CLOSE_WAIT/CLOSE
+0
+week1
+a
+0
+----Week 1
+--TCP/IP
+1. Which of the following is an example of a network layer (layer 3) protocol?
+Ans: IP
+2. What's the difference between a client and a server?
+Ans: A client requests data and a server responds to that request
+3. Which of the following are examples of layers of our five-layer network model?
+Ans: The physical layer
+     The transport layer
+     The application layer
+--Networking Devices
+1. Which of the following statements accurately describe the differences between a hub and a switch? Check all that apply.
+Ans: A hub causes larger collision domains
+     A hub is a physical layer device and a switch is a data link layer device
+     A switch remembers which devices are connected on each interface, while a hub does not
+2. What does LAN stand for?
+Ans: local area network
+3. What's a router?
+Ans: A device that knows how to forward data between independent networks
+--The Physical Layer
+1. What is the type of modulation used by twisted pair cable computer networks known as?
+Ans: Line coding
+2. What's the difference between full and half duplex?
+Ans: Full duplex allows communications in two directions at the same time; half duplex means that only one side can communicate at a time
+--The Data Link Layer
+1.How many octets are there in a MAC address?
+Ans: 6
+2. What address is used for Ethernet broadcasts?
+Ans: FF:FF:FF:FF:FF:FF
+3. What is a cyclical redundancy check?
+Ans: A mathematical calculation used to ensure that all data arrived intact
+--Networking Basics
+1. A device that knows how to forward traffic between independent networks is known as a  
+Ans: router
+2. The transmission method that sends data to every device on a LAN is known as a _____ transmission
+Ans: broadcast
+3. The technique that allows you to have multiple logical LANs operating on the same physical equipment is known as a
+Ans: VLAN
+4. When an electrical pulse on one wire is accidentally detected on another nearby wire, this is known as _____.
+Ans: cross talk
+5. TCP stands for 
+Ans: Transmission Control Protocol
+6. What layer in the Transmission Control Protocol/Internet Protocol (TCP/IP) model is responsible for defining a way to interpret signals so network devices can communicate
+Ans: data link
+7. Which layer in the Transmission Control Protocol/Internet Protocol (TCP/IP) model is responsible for delivering data between two nodes?
+Ans: Network
+8. The Ethernet protocol functions at which layer of the Transmission Control Protocol/Internet Protocol (TCP/IP) model?
+Ans: Data link
+9. You have installed a device at the physical layer. All of the systems you connect to this device will talk to each other at the same time. What have you installed?
+Ans: hub
+10. A user logs on to a laptop and opens her email. What device will provide emails to the laptop?
+Ans: server
+11. You get in your car after work and turn on the radio. What type of communication does the radio use?
+Ans: Simplex
+12. What is the most common plug used with twisted pair network cables?
+Ans: Registered Jack 45
+13. Which layer abstracts away the need for any other layers to care about what hardware is in use?
+Ans: Data link
+14. What does the letter B represent in a Media Access Control (MAC) address?
+Ans: 11
+15. What type of transmission will have a zero in a special bit in the destination Media Access Control (MAC) address?
+Ans: Unicast
+16. Which section in an ethernet frame contains the data from higher layers, such as Internet Protocol (IP) and the transport and application layers?
+Ans: Payload
+17. MAC address stands for ____ address.
+Ans: media access control
+18. Something that requests data from a server is known as a ____.
+Ans: client
+19. A defined set of standards that computers must follow in order to communicate properly is known as a _____.
+Ans: protocol
+20. What layer in the Transmission Control Protocol/Internet Protocol (TCP/IP) model does IP use?
+Ans: Network
+21. The Ethernet protocol functions at which layer of the Transmission Control Protocol/Internet Protocol (TCP/IP) model?
+Ans: Data link
+22. Multiple systems try to send data at the same time. The electrical pulses sent across the cable interfere with each other. What type of network segment is being used?
+Ans: Collision domain
+23. A network segment where only one device can communicate at a time is known as a _____.
+Ans: collision domain
+24. What device forwards data and operates at layer three of the Transmission Control Protocol/Internet Protocol (TCP/IP) model?
+Ans: Router
+25. A communications closet has a device that contains 48 ports. The device's sole function is to provide the ports. What type of device is in the closet?
+Ans: Patch panel
+26. What section in an ethernet frame will you find a Virtual Local Area Network (VLAN) header?
+Ans: EtherType field
+27. The most common data link layer protocol for wired connections is _____
+Ans: Ethernet
+28. What process sends ones and zeroes across network cables?
+Ans: Modulation
+----week2
+--The Network Layer
+1. Please select all of the valid IP addresses. Check all that apply.
+Ans: 192.168.1.1
+     8.8.8.8
+2. What happens to the TTL field of an IP datagram every time it reaches a router
+Ans: The TTL field is decremented by one
+--Subnetting
+1. What does CIDR stand for
+Ans: Classless Inter-Domain Routing
+2. Which of the following is a correct form of CIDR notation
+Ans: 192.168.1.0/24
+3. How many octets does a subnet mask have
+Ans: 4
+--Routing
+1. Select examples of routing protocols
+Ans: Routing Information Protocol
+     Border Gateway Protocol
+2. Who is permitted to use non-routable address space?
+Ans: Anyone
+3. A typical routing table may contain which of the following? Check all that apply.
+Ans: Destination network
+     Total hops
+extra: ARP stands for
+Ans: address resolution protocol
+extra: The process of taking the large network and splitting it up into many individual and smaller subnetworks is known as
+Ans: subnetting
+extra: TTL stands for
+Ans: time to live
+extra: There are __ octets in IP address
+Ans: 4
+extra: A single octet represents what range of decimal numbers
+Ans: 0-255
+extra: What protocol communicates data between routers representing the edges of autonomous
+Ans: exterior gateway
+extra: QoS services are protocols that allow routers to make decisions about which datagram may be more important than other
+Ans: service type field
+extra: what is the correct term for the list of IP addresses and the MAC addresses associated with them
+Ans: ARP table
+extra:Computer A wants to send some data to computer B. Computer A knows that Computer B is not on its local network, so it sends the packet to the router between Network A and Network B. Based on how many network hops have happened, how much will the TTL field be decremented by?
+Ans: 2
+extra: What type of network address space allows for nodes on a network to communicate with each other, but prevents any gateway router from forwarding traffic there, and are reserved for internal networks?
+Ans: non-routable network space
+1. The entirety of a packet at one layer becoming the payload section at another layer is known as
+Ans: encapsulation
+2. A subnet ID is calculated via a
+Ans: subnet mask
+3. RFC stands for
+Ans: request for Comments
+4. A ___ is where one network ends and another begins
+Ans: demarcation point
+5. Using logical operators, 1 AND 0 =
+Ans: false
+6. Why do entries in a local Address Resolution Protocol (ARP) table expire after a short amount of time
+Ans: to account for network change
+7. What protocol communicates data between routers representing the edges of autonomous systems?
+Ans: Exterior gateway
+8. what is eight bits of data called
+Ans: octet
+9. Which number cannot be represented by eight bits of data?
+Ans: 436
+10.What is the process of taking a single IP datagram and splitting it up into several smaller datagrams called
+Ans: fragmentation
+11. What protocol is used to discover the hardware address of a node with a certain IP address
+Ans: ARP table
+12. Which octet of the subnet mask 255.255.255.0 will tell the router the corresponding host ID
+Ans: the last octet
+13. What will the operator 1 AND 1 return?
+Ans: 1
+14. CIDR simplifies how routers and other network devices need to think about the parts of an IP address, but it also allows for more arbitrary network sizes. What does CIDR stand for?
+Ans: Classless Inter-Domain Routing
+15. How many bits long is a Autonomous System Number (ASN)
+Ans: 32
+extra: The instantiation of an endpoint in the potential TCP connection is known as A
+Ans: socket
+extra: Ports that are generally use to establish outbound connections are known as 
+Ans: ephemeral
+extra: How many bits are used to direct traffic to specific services running on a network computer
+Ans: 16
+extra: A connection has been terminated and no communication is possible. What is the Transmission Control Protocol (TCP) socket state?
+Ans: CLOSED
+extra: A device receives a Transmission Control Protocol (TCP) packet. The device understands where the actual data payload begins. Which portion of the TCP header provides this information?
+Ans: data offset
+extra: Which field in a Transmission Control Protocol (TCP) header is not typically used in modern networking?
+Ans: urgent pointer
+extra: The checksum doesn't compute for a packet sent at the Internet Protocol (IP) level. What will happen to the data?
+Ans: The data will be discarded.
+extra: Connection-oriented protocols protect against dropped data by forming connections and using what type of constant stream?
+Ans: acknowledgements
+extra: How many Transmission Control Protocol (TCP) control flags are there?
+Ans: 6
+----Week 3
+--The Transport Layer
+1. What ordering of TCP flags makes up the Three-way Handshake?
+Ans: SYN, SYN/ACK, ACK
+2. Transport layer protocols, like TCP and UDP, introduce the concept of a port. How many bits is a port field
+Ans: 16 bits
+3. Please select all valid TCP control flags
+Ans: URG
+     ACK
+     RST
+4. A devices that block trafic that meet certain criteria is known as
+Ans: firewall
+--The Application Layer
+1. Unlike our five-layer model, the OSI network model add two more layers on top of the application layer
+Ans: the presentation layer
+     the session layer
+2. An example of something that operates at the application layer is: 
+Ans: A web browser
+3. What is the standard number for a TTL field
+Ans: 64
+--The Transport and Application Layer
+1. Ports 1024-49151 are known as ______ ports.
+Ans: registered
+2. The instantiation of an endpoint in a potential TCP connection is known as a 
+Ans: socket
+3. The sequence of SYN, SYN/ACK, and ACK packets is known as the
+Ans: three-way handshake
+4. Ports that are generally used to establish outbound connections are known as ______ ports.
+Ans: ephemeral
+5. How many bits are used to direct traffic to specific services running on a networked computer?
+Ans: 16
+6. A user requests an unencrypted webpage from a web server running on a computer, listening on the Internet Protocol address 10.1.1.150. What will be the socket address?
+Ans: 10.1.1.150:80
+7. A connection has been terminated and no communication is possible. What is the Transmission Control Protocol (TCP) socket state?
+Ans: CLOSED
+8. A device receives a Transmission Control Protocol (TCP) packet. The device understands where the actual data payload begins. Which portion of the TCP header provides this information?
+Ans: Data offset
+9. Which field in a Transmission Control Protocol (TCP) header is not typically used in modern networking?
+Ans: Urgent pointer
+10. The checksum doesn't compute for a packet sent at the Internet Protocol (IP) level. What will happen to the data?
+Ans: The data will be discarded
+11. Connection-oriented protocols protect against dropped data by forming connections and using what type of constant stream?
+Ans: Acknowledgements
+12. How many Transmission Control Protocol (TCP) control flags are there?
+Ans: 6
+13. One side in a Transmission Control Protocol (TCP) connection has not been able to properly recover from a series of malformed segments. Which Transmission Control Protocol (TCP) flag will be used?
+Ans: RST
+14. Which Transmission Control Protocol (TCP) flag is used to make sure the receiving end knows how to examine the sequence number field?
+Ans: SYN
