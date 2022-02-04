@@ -135,3 +135,25 @@ Ans: /etc/fstab
 ---Life of a Process
 1. True or false: Windows processes can operate independently of their parents.
 Ans: True
+---Managing Processes
+1. Which of the following tools can help you gather information about the processes running on a Windows operating system?
+The Task Manager
+The tasklist utility from a command prompt
+The Get-Process commandlet from a PowerShell prompt
+All of the above
+2. If you restart a process using the Process Explorer utility, what will the new parent of that process be?
+Process Explorer
+---Process Utilization
+1. Which of the following PowerShell commands will tell you which process on your system is using the most CPU resources?
+Get-Process | Sort CPU -descending | Select -first 1 -Property ID,ProcessName,CPU 
+2. If you have a slow computer, what are some possible culprits that could be causing this? Select all that apply.
+High CPU usage
+Lots of I/O activity
+High RAM usage
+Too many processes running
+3. In a Linux machine, what command can you use to safely terminate a process with a PID of 342?
+kill 342
+4. In a Linux machine, what command can you use to absolutely kill a process with a PID of 342?
+kill -KILL 342
+5. In a Linux machine, what command can you use to suspend a process with a PID of 342?
+kill -TSTP 342
